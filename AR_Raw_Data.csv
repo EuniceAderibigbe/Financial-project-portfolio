@@ -1,0 +1,501 @@
+Customer,Invoice_Date,Due_Date, Amount ,Is_Paid,Invoice age, Outstanding amount ,Status,Overdue flag,Aging Bucket
+Global Tech Corp,24-04-26,24-05-26," 12,935.07 ",FALSE,14," 12,935.07 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,18-04-26,18-05-26," 21,339.36 ",TRUE,20, -   ,Paid,Not Overdue,0-30
+Global Tech Corp,25-04-26,25-05-26," 3,021.72 ",FALSE,13," 3,021.72 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,15-02-26,17-03-26," 15,001.44 ",TRUE,82, -   ,Paid,Not Overdue,61-90
+Horizon Media,11-03-26,10-04-26," 24,544.02 ",FALSE,58," 24,544.02 ",Unpaid,Overdue,31-60
+Summit Manufacturing,27-04-26,27-05-26," 16,576.63 ",FALSE,11," 16,576.63 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,28-01-26,27-02-26," 8,480.87 ",TRUE,100, -   ,Paid,Not Overdue,90+
+Horizon Media,30-04-26,30-05-26," 14,330.07 ",FALSE,8," 14,330.07 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,26-02-26,28-03-26," 15,819.78 ",TRUE,71, -   ,Paid,Not Overdue,61-90
+Delta Retail,08-04-26,08-05-26," 4,094.80 ",FALSE,30," 4,094.80 ",Unpaid,Not Overdue,0-30
+Horizon Media,22-02-26,24-03-26," 9,839.34 ",TRUE,75, -   ,Paid,Not Overdue,61-90
+Apex Logistics,29-03-26,28-04-26," 18,033.91 ",FALSE,40," 18,033.91 ",Unpaid,Overdue,31-60
+Horizon Media,18-03-26,17-04-26," 23,630.33 ",TRUE,51, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,22-03-26,21-04-26," 18,154.23 ",TRUE,47, -   ,Paid,Not Overdue,31-60
+Horizon Media,12-01-26,11-02-26," 18,002.16 ",TRUE,116, -   ,Paid,Not Overdue,90+
+Horizon Media,10-03-26,09-04-26," 16,886.61 ",FALSE,59," 16,886.61 ",Unpaid,Overdue,31-60
+Delta Retail,04-02-26,06-03-26," 11,416.36 ",TRUE,93, -   ,Paid,Not Overdue,90+
+Global Tech Corp,27-02-26,29-03-26," 8,535.27 ",TRUE,70, -   ,Paid,Not Overdue,61-90
+Delta Retail,21-02-26,23-03-26," 16,941.03 ",TRUE,76, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,07-04-26,07-05-26," 11,885.34 ",FALSE,31," 11,885.34 ",Unpaid,Overdue,31-60
+Horizon Media,07-01-26,06-02-26," 6,974.81 ",TRUE,121, -   ,Paid,Not Overdue,90+
+Global Tech Corp,30-01-26,01-03-26," 2,251.55 ",TRUE,98, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,03-02-26,05-03-26," 2,956.34 ",TRUE,94, -   ,Paid,Not Overdue,90+
+Delta Retail,10-01-26,09-02-26," 10,395.45 ",TRUE,118, -   ,Paid,Not Overdue,90+
+Apex Logistics,18-04-26,18-05-26," 20,725.00 ",FALSE,20," 20,725.00 ",Unpaid,Not Overdue,0-30
+Apex Logistics,11-04-26,11-05-26," 22,421.48 ",TRUE,27, -   ,Paid,Not Overdue,0-30
+Horizon Media,11-01-26,10-02-26," 20,038.92 ",TRUE,117, -   ,Paid,Not Overdue,90+
+Horizon Media,31-01-26,02-03-26," 24,269.19 ",TRUE,97, -   ,Paid,Not Overdue,90+
+Apex Logistics,16-03-26,15-04-26," 7,367.76 ",FALSE,53," 7,367.76 ",Unpaid,Overdue,31-60
+Delta Retail,09-03-26,08-04-26," 24,630.40 ",TRUE,60, -   ,Paid,Not Overdue,31-60
+Horizon Media,28-01-26,27-02-26," 5,855.79 ",TRUE,100, -   ,Paid,Not Overdue,90+
+Horizon Media,10-02-26,12-03-26," 22,132.44 ",TRUE,87, -   ,Paid,Not Overdue,61-90
+Horizon Media,25-04-26,25-05-26," 5,975.69 ",FALSE,13," 5,975.69 ",Unpaid,Not Overdue,0-30
+Delta Retail,20-03-26,19-04-26," 5,922.43 ",TRUE,49, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,15-03-26,14-04-26," 23,253.35 ",TRUE,54, -   ,Paid,Not Overdue,31-60
+Horizon Media,10-01-26,09-02-26," 6,850.96 ",TRUE,118, -   ,Paid,Not Overdue,90+
+Horizon Media,01-04-26,01-05-26," 6,878.46 ",FALSE,37," 6,878.46 ",Unpaid,Overdue,31-60
+Apex Logistics,29-01-26,28-02-26," 2,249.82 ",TRUE,99, -   ,Paid,Not Overdue,90+
+Horizon Media,27-04-26,27-05-26," 10,202.71 ",FALSE,11," 10,202.71 ",Unpaid,Not Overdue,0-30
+Apex Logistics,02-01-26,01-02-26," 20,749.88 ",TRUE,126, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,11-02-26,13-03-26," 22,524.15 ",TRUE,86, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,28-02-26,30-03-26," 13,724.84 ",FALSE,69," 13,724.84 ",Unpaid,Overdue,61-90
+Apex Logistics,19-01-26,18-02-26," 21,683.82 ",TRUE,109, -   ,Paid,Not Overdue,90+
+Horizon Media,25-03-26,24-04-26," 13,064.68 ",FALSE,44," 13,064.68 ",Unpaid,Overdue,31-60
+Apex Logistics,29-01-26,28-02-26," 13,348.36 ",TRUE,99, -   ,Paid,Not Overdue,90+
+Apex Logistics,23-04-26,23-05-26," 6,474.56 ",FALSE,15," 6,474.56 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,01-02-26,03-03-26," 4,203.17 ",TRUE,96, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,14-03-26,13-04-26," 23,042.59 ",FALSE,55," 23,042.59 ",Unpaid,Overdue,31-60
+Horizon Media,28-01-26,27-02-26," 1,301.95 ",TRUE,100, -   ,Paid,Not Overdue,90+
+Global Tech Corp,14-03-26,13-04-26," 21,447.22 ",TRUE,55, -   ,Paid,Not Overdue,31-60
+Apex Logistics,25-02-26,27-03-26," 15,181.02 ",TRUE,72, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,26-03-26,25-04-26," 7,485.76 ",TRUE,43, -   ,Paid,Not Overdue,31-60
+Apex Logistics,14-01-26,13-02-26," 4,089.48 ",TRUE,114, -   ,Paid,Not Overdue,90+
+Apex Logistics,16-04-26,16-05-26," 9,137.98 ",TRUE,22, -   ,Paid,Not Overdue,0-30
+Delta Retail,16-02-26,18-03-26," 24,171.76 ",TRUE,81, -   ,Paid,Not Overdue,61-90
+Apex Logistics,05-01-26,04-02-26," 17,502.75 ",TRUE,123, -   ,Paid,Not Overdue,90+
+Global Tech Corp,09-02-26,11-03-26," 17,580.35 ",TRUE,88, -   ,Paid,Not Overdue,61-90
+Horizon Media,24-02-26,26-03-26," 13,830.92 ",TRUE,73, -   ,Paid,Not Overdue,61-90
+Horizon Media,05-04-26,05-05-26," 16,385.15 ",FALSE,33," 16,385.15 ",Unpaid,Overdue,31-60
+Delta Retail,11-01-26,10-02-26," 5,373.29 ",TRUE,117, -   ,Paid,Not Overdue,90+
+Global Tech Corp,11-01-26,10-02-26," 14,414.16 ",TRUE,117, -   ,Paid,Not Overdue,90+
+Apex Logistics,04-02-26,06-03-26," 13,110.58 ",TRUE,93, -   ,Paid,Not Overdue,90+
+Horizon Media,06-03-26,05-04-26," 3,768.48 ",TRUE,63, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,20-01-26,19-02-26," 8,941.54 ",TRUE,108, -   ,Paid,Not Overdue,90+
+Apex Logistics,28-04-26,28-05-26," 23,395.51 ",FALSE,10," 23,395.51 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,09-02-26,11-03-26," 5,158.31 ",TRUE,88, -   ,Paid,Not Overdue,61-90
+Delta Retail,26-03-26,25-04-26," 12,064.38 ",TRUE,43, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,12-03-26,11-04-26," 17,380.06 ",TRUE,57, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,17-04-26,17-05-26," 11,265.98 ",FALSE,21," 11,265.98 ",Unpaid,Not Overdue,0-30
+Delta Retail,07-03-26,06-04-26," 13,300.69 ",TRUE,62, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,06-04-26,06-05-26," 7,072.12 ",TRUE,32, -   ,Paid,Not Overdue,31-60
+Delta Retail,25-01-26,24-02-26," 1,471.34 ",TRUE,103, -   ,Paid,Not Overdue,90+
+Horizon Media,20-03-26,19-04-26," 6,225.13 ",FALSE,49," 6,225.13 ",Unpaid,Overdue,31-60
+Delta Retail,26-03-26,25-04-26," 16,258.27 ",TRUE,43, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,02-03-26,01-04-26," 8,079.91 ",FALSE,67," 8,079.91 ",Unpaid,Overdue,61-90
+Apex Logistics,24-03-26,23-04-26," 15,588.60 ",TRUE,45, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,03-04-26,03-05-26," 19,508.61 ",FALSE,35," 19,508.61 ",Unpaid,Overdue,31-60
+Horizon Media,30-03-26,29-04-26," 8,879.31 ",FALSE,39," 8,879.31 ",Unpaid,Overdue,31-60
+Global Tech Corp,19-01-26,18-02-26," 10,585.89 ",TRUE,109, -   ,Paid,Not Overdue,90+
+Horizon Media,08-01-26,07-02-26," 17,229.70 ",TRUE,120, -   ,Paid,Not Overdue,90+
+Apex Logistics,21-02-26,23-03-26," 19,479.43 ",TRUE,76, -   ,Paid,Not Overdue,61-90
+Apex Logistics,25-01-26,24-02-26," 12,197.30 ",TRUE,103, -   ,Paid,Not Overdue,90+
+Delta Retail,03-01-26,02-02-26," 15,689.24 ",TRUE,125, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,16-02-26,18-03-26," 1,199.69 ",TRUE,81, -   ,Paid,Not Overdue,61-90
+Horizon Media,14-01-26,13-02-26," 9,435.73 ",TRUE,114, -   ,Paid,Not Overdue,90+
+Horizon Media,22-03-26,21-04-26," 22,121.71 ",TRUE,47, -   ,Paid,Not Overdue,31-60
+Horizon Media,29-04-26,29-05-26," 18,782.78 ",FALSE,9," 18,782.78 ",Unpaid,Not Overdue,0-30
+Apex Logistics,09-03-26,08-04-26," 22,038.20 ",TRUE,60, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,18-02-26,20-03-26," 20,733.96 ",FALSE,79," 20,733.96 ",Unpaid,Overdue,61-90
+Global Tech Corp,07-01-26,06-02-26," 17,651.14 ",FALSE,121," 17,651.14 ",Unpaid,Overdue,90+
+Apex Logistics,02-04-26,02-05-26," 1,868.93 ",FALSE,36," 1,868.93 ",Unpaid,Overdue,31-60
+Global Tech Corp,06-01-26,05-02-26," 18,834.88 ",TRUE,122, -   ,Paid,Not Overdue,90+
+Delta Retail,18-01-26,17-02-26," 20,162.51 ",TRUE,110, -   ,Paid,Not Overdue,90+
+Global Tech Corp,22-01-26,21-02-26," 11,769.03 ",TRUE,106, -   ,Paid,Not Overdue,90+
+Delta Retail,04-04-26,04-05-26," 10,933.82 ",FALSE,34," 10,933.82 ",Unpaid,Overdue,31-60
+Apex Logistics,06-04-26,06-05-26," 12,416.21 ",FALSE,32," 12,416.21 ",Unpaid,Overdue,31-60
+Delta Retail,21-02-26,23-03-26," 11,151.45 ",TRUE,76, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,19-01-26,18-02-26," 10,138.05 ",TRUE,109, -   ,Paid,Not Overdue,90+
+Global Tech Corp,04-04-26,04-05-26," 13,446.60 ",FALSE,34," 13,446.60 ",Unpaid,Overdue,31-60
+Horizon Media,27-03-26,26-04-26," 11,872.29 ",TRUE,42, -   ,Paid,Not Overdue,31-60
+Apex Logistics,11-03-26,10-04-26," 16,974.71 ",FALSE,58," 16,974.71 ",Unpaid,Overdue,31-60
+Horizon Media,09-02-26,11-03-26," 9,693.19 ",TRUE,88, -   ,Paid,Not Overdue,61-90
+Apex Logistics,12-02-26,14-03-26," 20,356.53 ",TRUE,85, -   ,Paid,Not Overdue,61-90
+Apex Logistics,28-01-26,27-02-26," 21,675.94 ",TRUE,100, -   ,Paid,Not Overdue,90+
+Apex Logistics,13-04-26,13-05-26," 23,347.91 ",FALSE,25," 23,347.91 ",Unpaid,Not Overdue,0-30
+Apex Logistics,18-04-26,18-05-26," 6,160.41 ",FALSE,20," 6,160.41 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,23-01-26,22-02-26," 1,606.02 ",TRUE,105, -   ,Paid,Not Overdue,90+
+Delta Retail,17-03-26,16-04-26," 6,866.56 ",TRUE,52, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,08-02-26,10-03-26," 8,942.12 ",TRUE,89, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,15-03-26,14-04-26," 19,734.54 ",FALSE,54," 19,734.54 ",Unpaid,Overdue,31-60
+Delta Retail,23-03-26,22-04-26," 20,617.73 ",TRUE,46, -   ,Paid,Not Overdue,31-60
+Horizon Media,20-04-26,20-05-26," 7,805.85 ",TRUE,18, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,16-03-26,15-04-26," 18,378.11 ",TRUE,53, -   ,Paid,Not Overdue,31-60
+Delta Retail,21-02-26,23-03-26," 6,429.55 ",TRUE,76, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,30-03-26,29-04-26," 20,633.86 ",FALSE,39," 20,633.86 ",Unpaid,Overdue,31-60
+Summit Manufacturing,18-01-26,17-02-26," 18,881.12 ",TRUE,110, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,01-05-26,31-05-26," 24,181.80 ",FALSE,7," 24,181.80 ",Unpaid,Not Overdue,0-30
+Horizon Media,25-03-26,24-04-26," 11,040.49 ",TRUE,44, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,26-01-26,25-02-26," 8,731.15 ",TRUE,102, -   ,Paid,Not Overdue,90+
+Global Tech Corp,05-01-26,04-02-26," 17,570.65 ",TRUE,123, -   ,Paid,Not Overdue,90+
+Apex Logistics,13-01-26,12-02-26," 16,848.24 ",TRUE,115, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,27-02-26,29-03-26," 17,723.22 ",TRUE,70, -   ,Paid,Not Overdue,61-90
+Horizon Media,18-01-26,17-02-26," 9,698.43 ",TRUE,110, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,26-03-26,25-04-26," 5,519.26 ",FALSE,43," 5,519.26 ",Unpaid,Overdue,31-60
+Global Tech Corp,29-01-26,28-02-26," 20,934.82 ",FALSE,99," 20,934.82 ",Unpaid,Overdue,90+
+Delta Retail,01-05-26,31-05-26," 4,744.22 ",TRUE,7, -   ,Paid,Not Overdue,0-30
+Delta Retail,15-04-26,15-05-26," 5,383.31 ",FALSE,23," 5,383.31 ",Unpaid,Not Overdue,0-30
+Apex Logistics,30-01-26,01-03-26," 16,020.52 ",TRUE,98, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,23-02-26,25-03-26," 21,450.08 ",TRUE,74, -   ,Paid,Not Overdue,61-90
+Horizon Media,09-01-26,08-02-26," 4,638.62 ",TRUE,119, -   ,Paid,Not Overdue,90+
+Delta Retail,03-03-26,02-04-26," 19,982.01 ",TRUE,66, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,30-01-26,01-03-26," 9,916.36 ",TRUE,98, -   ,Paid,Not Overdue,90+
+Horizon Media,19-03-26,18-04-26," 15,905.65 ",TRUE,50, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,14-03-26,13-04-26," 9,508.45 ",TRUE,55, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,09-02-26,11-03-26," 18,012.31 ",TRUE,88, -   ,Paid,Not Overdue,61-90
+Horizon Media,05-01-26,04-02-26," 22,357.35 ",TRUE,123, -   ,Paid,Not Overdue,90+
+Apex Logistics,18-02-26,20-03-26," 1,206.99 ",TRUE,79, -   ,Paid,Not Overdue,61-90
+Horizon Media,10-02-26,12-03-26," 14,735.06 ",TRUE,87, -   ,Paid,Not Overdue,61-90
+Delta Retail,10-04-26,10-05-26," 19,220.45 ",FALSE,28," 19,220.45 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,10-03-26,09-04-26," 5,122.34 ",TRUE,59, -   ,Paid,Not Overdue,31-60
+Delta Retail,03-02-26,05-03-26," 24,025.56 ",TRUE,94, -   ,Paid,Not Overdue,90+
+Delta Retail,08-04-26,08-05-26," 9,557.17 ",FALSE,30," 9,557.17 ",Unpaid,Not Overdue,0-30
+Horizon Media,27-04-26,27-05-26," 22,297.54 ",FALSE,11," 22,297.54 ",Unpaid,Not Overdue,0-30
+Horizon Media,12-02-26,14-03-26," 12,985.72 ",TRUE,85, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,02-03-26,01-04-26," 18,283.53 ",TRUE,67, -   ,Paid,Not Overdue,61-90
+Horizon Media,12-03-26,11-04-26," 18,295.73 ",TRUE,57, -   ,Paid,Not Overdue,31-60
+Horizon Media,30-01-26,01-03-26," 6,791.64 ",TRUE,98, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,05-04-26,05-05-26," 20,649.70 ",FALSE,33," 20,649.70 ",Unpaid,Overdue,31-60
+Horizon Media,19-01-26,18-02-26," 9,995.95 ",TRUE,109, -   ,Paid,Not Overdue,90+
+Apex Logistics,27-02-26,29-03-26," 16,760.99 ",TRUE,70, -   ,Paid,Not Overdue,61-90
+Delta Retail,15-04-26,15-05-26," 16,091.71 ",FALSE,23," 16,091.71 ",Unpaid,Not Overdue,0-30
+Apex Logistics,16-01-26,15-02-26," 9,821.59 ",TRUE,112, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,04-02-26,06-03-26," 10,949.47 ",TRUE,93, -   ,Paid,Not Overdue,90+
+Global Tech Corp,25-03-26,24-04-26," 10,107.21 ",TRUE,44, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,15-02-26,17-03-26," 3,516.68 ",TRUE,82, -   ,Paid,Not Overdue,61-90
+Delta Retail,13-04-26,13-05-26," 12,136.26 ",FALSE,25," 12,136.26 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,23-01-26,22-02-26," 14,504.73 ",TRUE,105, -   ,Paid,Not Overdue,90+
+Delta Retail,15-03-26,14-04-26," 18,570.95 ",TRUE,54, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,18-04-26,18-05-26," 13,625.44 ",FALSE,20," 13,625.44 ",Unpaid,Not Overdue,0-30
+Delta Retail,02-03-26,01-04-26," 7,373.72 ",TRUE,67, -   ,Paid,Not Overdue,61-90
+Delta Retail,04-01-26,03-02-26," 14,045.25 ",TRUE,124, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,08-01-26,07-02-26," 5,482.24 ",TRUE,120, -   ,Paid,Not Overdue,90+
+Horizon Media,15-04-26,15-05-26," 23,274.97 ",FALSE,23," 23,274.97 ",Unpaid,Not Overdue,0-30
+Apex Logistics,02-04-26,02-05-26," 3,622.54 ",TRUE,36, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,30-04-26,30-05-26," 14,309.59 ",FALSE,8," 14,309.59 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,18-04-26,18-05-26," 24,098.90 ",TRUE,20, -   ,Paid,Not Overdue,0-30
+Global Tech Corp,21-02-26,23-03-26," 10,020.94 ",TRUE,76, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,19-04-26,19-05-26," 15,977.59 ",TRUE,19, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,04-03-26,03-04-26," 14,310.38 ",TRUE,65, -   ,Paid,Not Overdue,61-90
+Delta Retail,01-02-26,03-03-26," 16,854.60 ",FALSE,96," 16,854.60 ",Unpaid,Overdue,90+
+Delta Retail,13-03-26,12-04-26," 7,329.60 ",FALSE,56," 7,329.60 ",Unpaid,Overdue,31-60
+Summit Manufacturing,08-01-26,07-02-26," 18,238.69 ",FALSE,120," 18,238.69 ",Unpaid,Overdue,90+
+Apex Logistics,24-01-26,23-02-26," 12,349.65 ",TRUE,104, -   ,Paid,Not Overdue,90+
+Apex Logistics,23-02-26,25-03-26," 14,927.19 ",TRUE,74, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,17-02-26,19-03-26," 12,570.09 ",TRUE,80, -   ,Paid,Not Overdue,61-90
+Delta Retail,25-03-26,24-04-26," 11,080.66 ",TRUE,44, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,05-01-26,04-02-26," 22,237.87 ",TRUE,123, -   ,Paid,Not Overdue,90+
+Delta Retail,13-04-26,13-05-26," 6,755.14 ",TRUE,25, -   ,Paid,Not Overdue,0-30
+Apex Logistics,13-04-26,13-05-26," 11,395.01 ",FALSE,25," 11,395.01 ",Unpaid,Not Overdue,0-30
+Delta Retail,13-02-26,15-03-26," 16,059.51 ",TRUE,84, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,01-02-26,03-03-26," 16,368.09 ",TRUE,96, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,04-04-26,04-05-26," 3,738.20 ",FALSE,34," 3,738.20 ",Unpaid,Overdue,31-60
+Summit Manufacturing,03-01-26,02-02-26," 3,412.20 ",TRUE,125, -   ,Paid,Not Overdue,90+
+Global Tech Corp,10-01-26,09-02-26," 3,335.39 ",TRUE,118, -   ,Paid,Not Overdue,90+
+Delta Retail,08-01-26,07-02-26," 18,669.22 ",TRUE,120, -   ,Paid,Not Overdue,90+
+Delta Retail,30-01-26,01-03-26," 19,634.09 ",TRUE,98, -   ,Paid,Not Overdue,90+
+Global Tech Corp,14-04-26,14-05-26," 13,263.80 ",FALSE,24," 13,263.80 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,26-03-26,25-04-26," 9,870.12 ",TRUE,43, -   ,Paid,Not Overdue,31-60
+Horizon Media,22-01-26,21-02-26," 24,255.85 ",FALSE,106," 24,255.85 ",Unpaid,Overdue,90+
+Delta Retail,20-02-26,22-03-26," 10,776.13 ",TRUE,77, -   ,Paid,Not Overdue,61-90
+Horizon Media,29-03-26,28-04-26," 6,752.89 ",TRUE,40, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,28-03-26,27-04-26," 10,494.36 ",FALSE,41," 10,494.36 ",Unpaid,Overdue,31-60
+Horizon Media,24-02-26,26-03-26," 14,658.25 ",TRUE,73, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,27-04-26,27-05-26," 12,542.89 ",FALSE,11," 12,542.89 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,07-02-26,09-03-26," 8,861.05 ",TRUE,90, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,27-02-26,29-03-26," 16,383.84 ",TRUE,70, -   ,Paid,Not Overdue,61-90
+Apex Logistics,17-04-26,17-05-26," 12,536.39 ",FALSE,21," 12,536.39 ",Unpaid,Not Overdue,0-30
+Apex Logistics,22-01-26,21-02-26," 24,869.75 ",TRUE,106, -   ,Paid,Not Overdue,90+
+Apex Logistics,18-02-26,20-03-26," 3,883.53 ",FALSE,79," 3,883.53 ",Unpaid,Overdue,61-90
+Global Tech Corp,24-03-26,23-04-26," 8,780.11 ",TRUE,45, -   ,Paid,Not Overdue,31-60
+Apex Logistics,14-03-26,13-04-26," 4,024.30 ",TRUE,55, -   ,Paid,Not Overdue,31-60
+Apex Logistics,04-01-26,03-02-26," 5,356.28 ",TRUE,124, -   ,Paid,Not Overdue,90+
+Horizon Media,28-02-26,30-03-26," 11,711.63 ",TRUE,69, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,08-01-26,07-02-26," 7,716.33 ",TRUE,120, -   ,Paid,Not Overdue,90+
+Horizon Media,22-02-26,24-03-26," 17,576.23 ",TRUE,75, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,04-01-26,03-02-26," 13,767.32 ",TRUE,124, -   ,Paid,Not Overdue,90+
+Global Tech Corp,31-01-26,02-03-26," 21,970.00 ",TRUE,97, -   ,Paid,Not Overdue,90+
+Horizon Media,22-04-26,22-05-26," 3,222.84 ",FALSE,16," 3,222.84 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,29-03-26,28-04-26," 16,777.22 ",TRUE,40, -   ,Paid,Not Overdue,31-60
+Horizon Media,22-01-26,21-02-26," 2,214.07 ",TRUE,106, -   ,Paid,Not Overdue,90+
+Delta Retail,25-02-26,27-03-26," 13,726.89 ",TRUE,72, -   ,Paid,Not Overdue,61-90
+Apex Logistics,07-03-26,06-04-26," 10,679.93 ",TRUE,62, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,28-02-26,30-03-26," 24,690.50 ",TRUE,69, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,10-04-26,10-05-26," 4,486.08 ",FALSE,28," 4,486.08 ",Unpaid,Not Overdue,0-30
+Horizon Media,12-02-26,14-03-26," 22,404.49 ",TRUE,85, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,01-05-26,31-05-26," 12,629.63 ",TRUE,7, -   ,Paid,Not Overdue,0-30
+Horizon Media,18-02-26,20-03-26," 6,102.20 ",TRUE,79, -   ,Paid,Not Overdue,61-90
+Horizon Media,07-01-26,06-02-26," 14,756.55 ",TRUE,121, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,19-02-26,21-03-26," 5,307.22 ",TRUE,78, -   ,Paid,Not Overdue,61-90
+Horizon Media,08-01-26,07-02-26," 22,991.31 ",TRUE,120, -   ,Paid,Not Overdue,90+
+Delta Retail,14-01-26,13-02-26," 13,533.29 ",TRUE,114, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,25-02-26,27-03-26," 9,127.44 ",TRUE,72, -   ,Paid,Not Overdue,61-90
+Apex Logistics,02-03-26,01-04-26," 3,783.61 ",TRUE,67, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,04-03-26,03-04-26," 8,558.54 ",FALSE,65," 8,558.54 ",Unpaid,Overdue,61-90
+Delta Retail,19-03-26,18-04-26," 10,629.89 ",FALSE,50," 10,629.89 ",Unpaid,Overdue,31-60
+Summit Manufacturing,12-04-26,12-05-26," 22,097.72 ",TRUE,26, -   ,Paid,Not Overdue,0-30
+Horizon Media,04-01-26,03-02-26," 14,725.28 ",TRUE,124, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,04-04-26,04-05-26," 23,700.62 ",FALSE,34," 23,700.62 ",Unpaid,Overdue,31-60
+Delta Retail,22-04-26,22-05-26," 17,485.98 ",TRUE,16, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,06-01-26,05-02-26," 5,705.20 ",TRUE,122, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,21-04-26,21-05-26," 13,951.64 ",TRUE,17, -   ,Paid,Not Overdue,0-30
+Apex Logistics,14-04-26,14-05-26," 17,324.91 ",FALSE,24," 17,324.91 ",Unpaid,Not Overdue,0-30
+Apex Logistics,28-03-26,27-04-26," 12,070.52 ",FALSE,41," 12,070.52 ",Unpaid,Overdue,31-60
+Delta Retail,20-02-26,22-03-26," 22,246.67 ",FALSE,77," 22,246.67 ",Unpaid,Overdue,61-90
+Delta Retail,27-01-26,26-02-26," 2,915.16 ",TRUE,101, -   ,Paid,Not Overdue,90+
+Global Tech Corp,20-01-26,19-02-26," 7,799.30 ",TRUE,108, -   ,Paid,Not Overdue,90+
+Apex Logistics,26-04-26,26-05-26," 5,186.34 ",TRUE,12, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,23-03-26,22-04-26," 24,568.97 ",FALSE,46," 24,568.97 ",Unpaid,Overdue,31-60
+Summit Manufacturing,19-03-26,18-04-26," 16,069.37 ",TRUE,50, -   ,Paid,Not Overdue,31-60
+Delta Retail,06-02-26,08-03-26," 4,594.03 ",TRUE,91, -   ,Paid,Not Overdue,90+
+Delta Retail,27-04-26,27-05-26," 2,696.60 ",FALSE,11," 2,696.60 ",Unpaid,Not Overdue,0-30
+Delta Retail,29-04-26,29-05-26," 20,827.12 ",FALSE,9," 20,827.12 ",Unpaid,Not Overdue,0-30
+Apex Logistics,02-03-26,01-04-26," 8,891.25 ",FALSE,67," 8,891.25 ",Unpaid,Overdue,61-90
+Delta Retail,10-02-26,12-03-26," 16,990.73 ",TRUE,87, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,17-04-26,17-05-26," 18,302.38 ",TRUE,21, -   ,Paid,Not Overdue,0-30
+Delta Retail,22-03-26,21-04-26," 15,546.95 ",FALSE,47," 15,546.95 ",Unpaid,Overdue,31-60
+Apex Logistics,23-04-26,23-05-26," 23,046.93 ",FALSE,15," 23,046.93 ",Unpaid,Not Overdue,0-30
+Horizon Media,16-02-26,18-03-26," 5,580.04 ",TRUE,81, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,13-04-26,13-05-26," 7,452.38 ",TRUE,25, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,05-03-26,04-04-26," 3,684.25 ",TRUE,64, -   ,Paid,Not Overdue,61-90
+Delta Retail,23-02-26,25-03-26," 24,524.17 ",TRUE,74, -   ,Paid,Not Overdue,61-90
+Apex Logistics,21-04-26,21-05-26," 17,970.43 ",FALSE,17," 17,970.43 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,11-03-26,10-04-26," 14,512.54 ",TRUE,58, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,20-01-26,19-02-26," 22,040.35 ",TRUE,108, -   ,Paid,Not Overdue,90+
+Delta Retail,05-03-26,04-04-26," 6,898.00 ",TRUE,64, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,06-03-26,05-04-26," 9,426.08 ",TRUE,63, -   ,Paid,Not Overdue,61-90
+Horizon Media,22-04-26,22-05-26," 23,532.15 ",FALSE,16," 23,532.15 ",Unpaid,Not Overdue,0-30
+Delta Retail,13-01-26,12-02-26," 12,921.54 ",TRUE,115, -   ,Paid,Not Overdue,90+
+Apex Logistics,28-03-26,27-04-26," 7,048.42 ",TRUE,41, -   ,Paid,Not Overdue,31-60
+Apex Logistics,22-03-26,21-04-26," 10,952.24 ",TRUE,47, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,26-01-26,25-02-26," 22,324.02 ",TRUE,102, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,12-02-26,14-03-26," 16,977.24 ",TRUE,85, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,18-04-26,18-05-26," 18,609.72 ",FALSE,20," 18,609.72 ",Unpaid,Not Overdue,0-30
+Apex Logistics,09-01-26,08-02-26," 19,688.82 ",TRUE,119, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,03-04-26,03-05-26," 7,887.76 ",FALSE,35," 7,887.76 ",Unpaid,Overdue,31-60
+Summit Manufacturing,11-02-26,13-03-26," 9,870.61 ",TRUE,86, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,24-02-26,26-03-26," 13,762.52 ",TRUE,73, -   ,Paid,Not Overdue,61-90
+Apex Logistics,18-04-26,18-05-26," 12,723.75 ",TRUE,20, -   ,Paid,Not Overdue,0-30
+Delta Retail,20-03-26,19-04-26," 22,224.59 ",TRUE,49, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,17-01-26,16-02-26," 4,446.09 ",TRUE,111, -   ,Paid,Not Overdue,90+
+Global Tech Corp,17-03-26,16-04-26," 22,668.33 ",FALSE,52," 22,668.33 ",Unpaid,Overdue,31-60
+Horizon Media,28-03-26,27-04-26," 12,835.41 ",TRUE,41, -   ,Paid,Not Overdue,31-60
+Delta Retail,12-03-26,11-04-26," 24,223.66 ",TRUE,57, -   ,Paid,Not Overdue,31-60
+Delta Retail,19-03-26,18-04-26," 7,539.66 ",TRUE,50, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,25-04-26,25-05-26," 9,606.77 ",FALSE,13," 9,606.77 ",Unpaid,Not Overdue,0-30
+Delta Retail,21-02-26,23-03-26," 19,602.94 ",TRUE,76, -   ,Paid,Not Overdue,61-90
+Delta Retail,26-04-26,26-05-26," 20,409.86 ",FALSE,12," 20,409.86 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,04-03-26,03-04-26," 7,035.58 ",FALSE,65," 7,035.58 ",Unpaid,Overdue,61-90
+Apex Logistics,22-02-26,24-03-26," 1,336.21 ",TRUE,75, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,25-03-26,24-04-26," 24,681.07 ",TRUE,44, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,04-04-26,04-05-26," 22,213.17 ",FALSE,34," 22,213.17 ",Unpaid,Overdue,31-60
+Delta Retail,14-02-26,16-03-26," 20,057.65 ",TRUE,83, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,06-01-26,05-02-26," 9,774.54 ",TRUE,122, -   ,Paid,Not Overdue,90+
+Global Tech Corp,18-01-26,17-02-26," 18,425.62 ",TRUE,110, -   ,Paid,Not Overdue,90+
+Global Tech Corp,08-02-26,10-03-26," 11,245.30 ",TRUE,89, -   ,Paid,Not Overdue,61-90
+Horizon Media,21-01-26,20-02-26," 23,261.05 ",TRUE,107, -   ,Paid,Not Overdue,90+
+Horizon Media,28-04-26,28-05-26," 1,189.94 ",TRUE,10, -   ,Paid,Not Overdue,0-30
+Horizon Media,26-03-26,25-04-26," 17,868.60 ",TRUE,43, -   ,Paid,Not Overdue,31-60
+Apex Logistics,10-01-26,09-02-26," 24,738.58 ",TRUE,118, -   ,Paid,Not Overdue,90+
+Apex Logistics,13-03-26,12-04-26," 14,432.35 ",TRUE,56, -   ,Paid,Not Overdue,31-60
+Apex Logistics,24-01-26,23-02-26," 4,383.46 ",TRUE,104, -   ,Paid,Not Overdue,90+
+Apex Logistics,13-02-26,15-03-26," 10,865.25 ",TRUE,84, -   ,Paid,Not Overdue,61-90
+Apex Logistics,26-01-26,25-02-26," 24,911.14 ",TRUE,102, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,02-02-26,04-03-26," 12,705.43 ",TRUE,95, -   ,Paid,Not Overdue,90+
+Horizon Media,11-03-26,10-04-26," 2,528.90 ",TRUE,58, -   ,Paid,Not Overdue,31-60
+Apex Logistics,30-04-26,30-05-26," 13,461.76 ",FALSE,8," 13,461.76 ",Unpaid,Not Overdue,0-30
+Delta Retail,10-02-26,12-03-26," 7,132.30 ",TRUE,87, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,15-02-26,17-03-26," 22,047.01 ",TRUE,82, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,18-03-26,17-04-26," 19,131.21 ",FALSE,51," 19,131.21 ",Unpaid,Overdue,31-60
+Delta Retail,18-04-26,18-05-26," 5,242.29 ",FALSE,20," 5,242.29 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,12-03-26,11-04-26," 3,166.76 ",TRUE,57, -   ,Paid,Not Overdue,31-60
+Apex Logistics,31-03-26,30-04-26," 22,491.87 ",TRUE,38, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,09-04-26,09-05-26," 13,753.85 ",FALSE,29," 13,753.85 ",Unpaid,Not Overdue,0-30
+Horizon Media,02-03-26,01-04-26," 16,491.29 ",FALSE,67," 16,491.29 ",Unpaid,Overdue,61-90
+Global Tech Corp,21-02-26,23-03-26," 12,195.56 ",FALSE,76," 12,195.56 ",Unpaid,Overdue,61-90
+Global Tech Corp,03-04-26,03-05-26," 20,875.94 ",TRUE,35, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,27-03-26,26-04-26," 21,606.77 ",FALSE,42," 21,606.77 ",Unpaid,Overdue,31-60
+Horizon Media,02-03-26,01-04-26," 16,959.08 ",FALSE,67," 16,959.08 ",Unpaid,Overdue,61-90
+Global Tech Corp,06-01-26,05-02-26," 22,717.28 ",TRUE,122, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,22-02-26,24-03-26," 7,564.59 ",TRUE,75, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,04-04-26,04-05-26," 13,299.41 ",FALSE,34," 13,299.41 ",Unpaid,Overdue,31-60
+Horizon Media,11-04-26,11-05-26," 15,485.73 ",TRUE,27, -   ,Paid,Not Overdue,0-30
+Apex Logistics,25-03-26,24-04-26," 21,051.43 ",TRUE,44, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,25-04-26,25-05-26," 5,839.75 ",FALSE,13," 5,839.75 ",Unpaid,Not Overdue,0-30
+Horizon Media,26-04-26,26-05-26," 10,791.06 ",FALSE,12," 10,791.06 ",Unpaid,Not Overdue,0-30
+Apex Logistics,10-01-26,09-02-26," 12,426.38 ",TRUE,118, -   ,Paid,Not Overdue,90+
+Delta Retail,26-03-26,25-04-26," 19,421.59 ",FALSE,43," 19,421.59 ",Unpaid,Overdue,31-60
+Delta Retail,17-03-26,16-04-26," 1,276.80 ",FALSE,52," 1,276.80 ",Unpaid,Overdue,31-60
+Apex Logistics,26-04-26,26-05-26," 17,735.80 ",FALSE,12," 17,735.80 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,12-04-26,12-05-26," 15,716.73 ",TRUE,26, -   ,Paid,Not Overdue,0-30
+Delta Retail,14-04-26,14-05-26," 7,741.34 ",FALSE,24," 7,741.34 ",Unpaid,Not Overdue,0-30
+Horizon Media,10-03-26,09-04-26," 15,820.20 ",FALSE,59," 15,820.20 ",Unpaid,Overdue,31-60
+Global Tech Corp,12-01-26,11-02-26," 20,404.31 ",TRUE,116, -   ,Paid,Not Overdue,90+
+Apex Logistics,26-01-26,25-02-26," 21,335.85 ",TRUE,102, -   ,Paid,Not Overdue,90+
+Horizon Media,28-02-26,30-03-26," 20,516.92 ",TRUE,69, -   ,Paid,Not Overdue,61-90
+Horizon Media,09-03-26,08-04-26," 7,292.37 ",TRUE,60, -   ,Paid,Not Overdue,31-60
+Delta Retail,08-03-26,07-04-26," 22,090.87 ",TRUE,61, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,25-02-26,27-03-26," 14,620.20 ",TRUE,72, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,24-02-26,26-03-26," 15,246.69 ",TRUE,73, -   ,Paid,Not Overdue,61-90
+Apex Logistics,12-04-26,12-05-26," 2,828.89 ",FALSE,26," 2,828.89 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,28-02-26,30-03-26," 5,202.20 ",TRUE,69, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,30-01-26,01-03-26," 23,450.54 ",TRUE,98, -   ,Paid,Not Overdue,90+
+Horizon Media,21-01-26,20-02-26," 1,996.98 ",TRUE,107, -   ,Paid,Not Overdue,90+
+Delta Retail,03-02-26,05-03-26," 10,126.26 ",TRUE,94, -   ,Paid,Not Overdue,90+
+Apex Logistics,14-03-26,13-04-26," 3,799.67 ",FALSE,55," 3,799.67 ",Unpaid,Overdue,31-60
+Global Tech Corp,02-01-26,01-02-26," 8,692.17 ",FALSE,126," 8,692.17 ",Unpaid,Overdue,90+
+Horizon Media,16-03-26,15-04-26," 17,475.59 ",FALSE,53," 17,475.59 ",Unpaid,Overdue,31-60
+Summit Manufacturing,09-04-26,09-05-26," 19,689.19 ",FALSE,29," 19,689.19 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,08-04-26,08-05-26," 10,921.48 ",FALSE,30," 10,921.48 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,06-04-26,06-05-26," 3,322.87 ",FALSE,32," 3,322.87 ",Unpaid,Overdue,31-60
+Global Tech Corp,28-04-26,28-05-26," 24,556.07 ",FALSE,10," 24,556.07 ",Unpaid,Not Overdue,0-30
+Horizon Media,27-04-26,27-05-26," 14,269.83 ",FALSE,11," 14,269.83 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,16-04-26,16-05-26," 21,672.43 ",TRUE,22, -   ,Paid,Not Overdue,0-30
+Horizon Media,22-02-26,24-03-26," 11,741.74 ",TRUE,75, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,24-01-26,23-02-26," 19,209.40 ",TRUE,104, -   ,Paid,Not Overdue,90+
+Global Tech Corp,27-02-26,29-03-26," 2,006.67 ",TRUE,70, -   ,Paid,Not Overdue,61-90
+Horizon Media,15-04-26,15-05-26," 23,310.88 ",FALSE,23," 23,310.88 ",Unpaid,Not Overdue,0-30
+Apex Logistics,26-04-26,26-05-26," 23,862.91 ",FALSE,12," 23,862.91 ",Unpaid,Not Overdue,0-30
+Horizon Media,13-01-26,12-02-26," 16,767.12 ",TRUE,115, -   ,Paid,Not Overdue,90+
+Delta Retail,04-01-26,03-02-26," 7,546.54 ",TRUE,124, -   ,Paid,Not Overdue,90+
+Global Tech Corp,14-03-26,13-04-26," 23,004.48 ",TRUE,55, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,24-01-26,23-02-26," 15,998.88 ",TRUE,104, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,16-04-26,16-05-26," 20,983.63 ",FALSE,22," 20,983.63 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,15-03-26,14-04-26," 17,065.14 ",FALSE,54," 17,065.14 ",Unpaid,Overdue,31-60
+Apex Logistics,22-01-26,21-02-26," 24,626.90 ",TRUE,106, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,20-03-26,19-04-26," 17,709.61 ",TRUE,49, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,16-02-26,18-03-26," 24,159.36 ",TRUE,81, -   ,Paid,Not Overdue,61-90
+Horizon Media,26-02-26,28-03-26," 8,170.44 ",TRUE,71, -   ,Paid,Not Overdue,61-90
+Delta Retail,19-02-26,21-03-26," 10,518.80 ",TRUE,78, -   ,Paid,Not Overdue,61-90
+Apex Logistics,25-04-26,25-05-26," 16,838.63 ",TRUE,13, -   ,Paid,Not Overdue,0-30
+Global Tech Corp,14-04-26,14-05-26," 12,750.26 ",FALSE,24," 12,750.26 ",Unpaid,Not Overdue,0-30
+Delta Retail,21-03-26,20-04-26," 19,015.20 ",TRUE,48, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,14-01-26,13-02-26," 8,977.70 ",TRUE,114, -   ,Paid,Not Overdue,90+
+Delta Retail,19-04-26,19-05-26," 16,638.02 ",FALSE,19," 16,638.02 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,12-04-26,12-05-26," 21,765.63 ",FALSE,26," 21,765.63 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,19-04-26,19-05-26," 10,258.35 ",FALSE,19," 10,258.35 ",Unpaid,Not Overdue,0-30
+Delta Retail,08-02-26,10-03-26," 14,292.25 ",TRUE,89, -   ,Paid,Not Overdue,61-90
+Delta Retail,07-01-26,06-02-26," 24,495.25 ",TRUE,121, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,16-03-26,15-04-26," 1,859.16 ",TRUE,53, -   ,Paid,Not Overdue,31-60
+Delta Retail,31-01-26,02-03-26," 21,405.93 ",TRUE,97, -   ,Paid,Not Overdue,90+
+Horizon Media,15-03-26,14-04-26," 7,661.45 ",FALSE,54," 7,661.45 ",Unpaid,Overdue,31-60
+Horizon Media,30-03-26,29-04-26," 14,486.52 ",TRUE,39, -   ,Paid,Not Overdue,31-60
+Delta Retail,08-02-26,10-03-26," 24,616.73 ",TRUE,89, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,20-02-26,22-03-26," 16,157.26 ",TRUE,77, -   ,Paid,Not Overdue,61-90
+Delta Retail,09-03-26,08-04-26," 14,333.47 ",FALSE,60," 14,333.47 ",Unpaid,Overdue,31-60
+Summit Manufacturing,27-01-26,26-02-26," 23,247.65 ",TRUE,101, -   ,Paid,Not Overdue,90+
+Apex Logistics,12-04-26,12-05-26," 7,307.14 ",TRUE,26, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,18-01-26,17-02-26," 9,517.35 ",TRUE,110, -   ,Paid,Not Overdue,90+
+Global Tech Corp,26-01-26,25-02-26," 6,814.90 ",TRUE,102, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,25-02-26,27-03-26," 20,636.02 ",FALSE,72," 20,636.02 ",Unpaid,Overdue,61-90
+Global Tech Corp,07-02-26,09-03-26," 8,021.43 ",TRUE,90, -   ,Paid,Not Overdue,61-90
+Apex Logistics,21-03-26,20-04-26," 21,189.29 ",TRUE,48, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,02-03-26,01-04-26," 23,500.67 ",FALSE,67," 23,500.67 ",Unpaid,Overdue,61-90
+Apex Logistics,28-04-26,28-05-26," 3,385.46 ",FALSE,10," 3,385.46 ",Unpaid,Not Overdue,0-30
+Delta Retail,26-02-26,28-03-26," 24,092.83 ",TRUE,71, -   ,Paid,Not Overdue,61-90
+Apex Logistics,23-04-26,23-05-26," 7,292.48 ",FALSE,15," 7,292.48 ",Unpaid,Not Overdue,0-30
+Apex Logistics,24-02-26,26-03-26," 6,943.54 ",TRUE,73, -   ,Paid,Not Overdue,61-90
+Apex Logistics,13-04-26,13-05-26," 21,800.08 ",TRUE,25, -   ,Paid,Not Overdue,0-30
+Delta Retail,07-03-26,06-04-26," 3,942.14 ",TRUE,62, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,15-02-26,17-03-26," 15,601.55 ",TRUE,82, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,02-01-26,01-02-26," 18,329.44 ",TRUE,126, -   ,Paid,Not Overdue,90+
+Global Tech Corp,20-01-26,19-02-26," 4,059.34 ",TRUE,108, -   ,Paid,Not Overdue,90+
+Delta Retail,14-04-26,14-05-26," 20,966.61 ",TRUE,24, -   ,Paid,Not Overdue,0-30
+Apex Logistics,20-02-26,22-03-26," 14,893.43 ",TRUE,77, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,20-03-26,19-04-26," 10,617.16 ",FALSE,49," 10,617.16 ",Unpaid,Overdue,31-60
+Horizon Media,10-02-26,12-03-26," 14,305.24 ",FALSE,87," 14,305.24 ",Unpaid,Overdue,61-90
+Horizon Media,15-04-26,15-05-26," 12,958.10 ",FALSE,23," 12,958.10 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,11-03-26,10-04-26," 9,272.11 ",TRUE,58, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,19-04-26,19-05-26," 13,304.05 ",FALSE,19," 13,304.05 ",Unpaid,Not Overdue,0-30
+Delta Retail,12-03-26,11-04-26," 24,028.08 ",TRUE,57, -   ,Paid,Not Overdue,31-60
+Apex Logistics,08-02-26,10-03-26," 1,972.70 ",TRUE,89, -   ,Paid,Not Overdue,61-90
+Horizon Media,13-01-26,12-02-26," 22,856.65 ",TRUE,115, -   ,Paid,Not Overdue,90+
+Global Tech Corp,31-03-26,30-04-26," 6,048.41 ",TRUE,38, -   ,Paid,Not Overdue,31-60
+Horizon Media,28-04-26,28-05-26," 12,642.91 ",FALSE,10," 12,642.91 ",Unpaid,Not Overdue,0-30
+Delta Retail,15-01-26,14-02-26," 18,382.14 ",TRUE,113, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,13-04-26,13-05-26," 9,941.08 ",FALSE,25," 9,941.08 ",Unpaid,Not Overdue,0-30
+Apex Logistics,25-04-26,25-05-26," 18,805.18 ",TRUE,13, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,03-01-26,02-02-26," 5,583.02 ",TRUE,125, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,24-03-26,23-04-26," 17,772.14 ",TRUE,45, -   ,Paid,Not Overdue,31-60
+Delta Retail,11-01-26,10-02-26," 15,584.83 ",TRUE,117, -   ,Paid,Not Overdue,90+
+Horizon Media,01-03-26,31-03-26," 11,761.02 ",TRUE,68, -   ,Paid,Not Overdue,61-90
+Horizon Media,19-04-26,19-05-26," 12,011.94 ",FALSE,19," 12,011.94 ",Unpaid,Not Overdue,0-30
+Horizon Media,18-04-26,18-05-26," 12,345.31 ",TRUE,20, -   ,Paid,Not Overdue,0-30
+Apex Logistics,12-04-26,12-05-26," 17,398.28 ",FALSE,26," 17,398.28 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,16-02-26,18-03-26," 11,477.21 ",TRUE,81, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,21-01-26,20-02-26," 18,836.56 ",TRUE,107, -   ,Paid,Not Overdue,90+
+Horizon Media,18-02-26,20-03-26," 10,664.34 ",FALSE,79," 10,664.34 ",Unpaid,Overdue,61-90
+Global Tech Corp,29-01-26,28-02-26," 15,080.13 ",TRUE,99, -   ,Paid,Not Overdue,90+
+Horizon Media,22-03-26,21-04-26," 17,335.26 ",FALSE,47," 17,335.26 ",Unpaid,Overdue,31-60
+Apex Logistics,15-01-26,14-02-26," 16,409.88 ",TRUE,113, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,11-04-26,11-05-26," 17,154.54 ",TRUE,27, -   ,Paid,Not Overdue,0-30
+Global Tech Corp,13-03-26,12-04-26," 24,741.69 ",FALSE,56," 24,741.69 ",Unpaid,Overdue,31-60
+Apex Logistics,03-03-26,02-04-26," 6,639.57 ",TRUE,66, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,19-01-26,18-02-26," 16,315.92 ",TRUE,109, -   ,Paid,Not Overdue,90+
+Global Tech Corp,02-03-26,01-04-26," 14,135.69 ",FALSE,67," 14,135.69 ",Unpaid,Overdue,61-90
+Delta Retail,26-03-26,25-04-26," 6,876.92 ",TRUE,43, -   ,Paid,Not Overdue,31-60
+Global Tech Corp,21-04-26,21-05-26," 15,110.06 ",TRUE,17, -   ,Paid,Not Overdue,0-30
+Apex Logistics,06-02-26,08-03-26," 6,983.78 ",TRUE,91, -   ,Paid,Not Overdue,90+
+Delta Retail,11-04-26,11-05-26," 5,379.19 ",FALSE,27," 5,379.19 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,28-03-26,27-04-26," 6,763.37 ",TRUE,41, -   ,Paid,Not Overdue,31-60
+Horizon Media,15-01-26,14-02-26," 19,469.02 ",FALSE,113," 19,469.02 ",Unpaid,Overdue,90+
+Apex Logistics,23-01-26,22-02-26," 18,602.56 ",TRUE,105, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,15-03-26,14-04-26," 4,055.90 ",FALSE,54," 4,055.90 ",Unpaid,Overdue,31-60
+Delta Retail,13-01-26,12-02-26," 2,121.87 ",TRUE,115, -   ,Paid,Not Overdue,90+
+Global Tech Corp,07-04-26,07-05-26," 4,796.12 ",FALSE,31," 4,796.12 ",Unpaid,Overdue,31-60
+Summit Manufacturing,22-04-26,22-05-26," 13,698.15 ",TRUE,16, -   ,Paid,Not Overdue,0-30
+Delta Retail,20-03-26,19-04-26," 24,089.20 ",TRUE,49, -   ,Paid,Not Overdue,31-60
+Delta Retail,31-01-26,02-03-26," 8,331.76 ",TRUE,97, -   ,Paid,Not Overdue,90+
+Global Tech Corp,03-04-26,03-05-26," 8,493.01 ",FALSE,35," 8,493.01 ",Unpaid,Overdue,31-60
+Summit Manufacturing,16-03-26,15-04-26," 15,569.50 ",TRUE,53, -   ,Paid,Not Overdue,31-60
+Horizon Media,02-03-26,01-04-26," 1,771.85 ",TRUE,67, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,29-03-26,28-04-26," 14,653.20 ",TRUE,40, -   ,Paid,Not Overdue,31-60
+Delta Retail,09-04-26,09-05-26," 22,773.41 ",FALSE,29," 22,773.41 ",Unpaid,Not Overdue,0-30
+Horizon Media,12-03-26,11-04-26," 11,166.34 ",FALSE,57," 11,166.34 ",Unpaid,Overdue,31-60
+Global Tech Corp,15-02-26,17-03-26," 22,267.85 ",TRUE,82, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,15-02-26,17-03-26," 24,770.03 ",TRUE,82, -   ,Paid,Not Overdue,61-90
+Apex Logistics,10-01-26,09-02-26," 12,914.01 ",TRUE,118, -   ,Paid,Not Overdue,90+
+Global Tech Corp,14-03-26,13-04-26," 13,558.09 ",TRUE,55, -   ,Paid,Not Overdue,31-60
+Horizon Media,13-02-26,15-03-26," 4,380.52 ",TRUE,84, -   ,Paid,Not Overdue,61-90
+Apex Logistics,06-01-26,05-02-26," 23,423.82 ",TRUE,122, -   ,Paid,Not Overdue,90+
+Global Tech Corp,10-04-26,10-05-26," 21,590.64 ",TRUE,28, -   ,Paid,Not Overdue,0-30
+Apex Logistics,08-02-26,10-03-26," 24,162.81 ",TRUE,89, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,04-01-26,03-02-26," 9,587.14 ",TRUE,124, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,25-02-26,27-03-26," 7,732.49 ",TRUE,72, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,04-01-26,03-02-26," 15,162.72 ",FALSE,124," 15,162.72 ",Unpaid,Overdue,90+
+Horizon Media,26-01-26,25-02-26," 8,173.64 ",TRUE,102, -   ,Paid,Not Overdue,90+
+Global Tech Corp,09-01-26,08-02-26," 19,223.52 ",TRUE,119, -   ,Paid,Not Overdue,90+
+Apex Logistics,14-01-26,13-02-26," 18,183.68 ",TRUE,114, -   ,Paid,Not Overdue,90+
+Global Tech Corp,20-03-26,19-04-26," 8,411.44 ",FALSE,49," 8,411.44 ",Unpaid,Overdue,31-60
+Horizon Media,13-01-26,12-02-26," 6,227.97 ",TRUE,115, -   ,Paid,Not Overdue,90+
+Apex Logistics,04-02-26,06-03-26," 19,913.91 ",TRUE,93, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,22-01-26,21-02-26," 11,714.15 ",TRUE,106, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,24-04-26,24-05-26," 2,104.34 ",TRUE,14, -   ,Paid,Not Overdue,0-30
+Global Tech Corp,29-01-26,28-02-26," 19,521.70 ",TRUE,99, -   ,Paid,Not Overdue,90+
+Global Tech Corp,13-03-26,12-04-26," 22,024.97 ",TRUE,56, -   ,Paid,Not Overdue,31-60
+Apex Logistics,09-02-26,11-03-26," 22,077.25 ",TRUE,88, -   ,Paid,Not Overdue,61-90
+Apex Logistics,23-04-26,23-05-26," 17,571.38 ",FALSE,15," 17,571.38 ",Unpaid,Not Overdue,0-30
+Delta Retail,26-01-26,25-02-26," 2,802.93 ",TRUE,102, -   ,Paid,Not Overdue,90+
+Delta Retail,24-04-26,24-05-26," 8,232.89 ",TRUE,14, -   ,Paid,Not Overdue,0-30
+Summit Manufacturing,15-04-26,15-05-26," 12,689.78 ",FALSE,23," 12,689.78 ",Unpaid,Not Overdue,0-30
+Global Tech Corp,30-03-26,29-04-26," 8,064.24 ",FALSE,39," 8,064.24 ",Unpaid,Overdue,31-60
+Delta Retail,07-03-26,06-04-26," 13,997.02 ",FALSE,62," 13,997.02 ",Unpaid,Overdue,61-90
+Horizon Media,20-03-26,19-04-26," 8,450.98 ",TRUE,49, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,27-04-26,27-05-26," 14,903.81 ",TRUE,11, -   ,Paid,Not Overdue,0-30
+Horizon Media,20-01-26,19-02-26," 8,390.55 ",TRUE,108, -   ,Paid,Not Overdue,90+
+Apex Logistics,26-04-26,26-05-26," 19,389.58 ",FALSE,12," 19,389.58 ",Unpaid,Not Overdue,0-30
+Horizon Media,19-01-26,18-02-26," 17,309.98 ",FALSE,109," 17,309.98 ",Unpaid,Overdue,90+
+Apex Logistics,14-01-26,13-02-26," 7,400.54 ",TRUE,114, -   ,Paid,Not Overdue,90+
+Delta Retail,28-01-26,27-02-26," 23,926.68 ",TRUE,100, -   ,Paid,Not Overdue,90+
+Horizon Media,07-04-26,07-05-26," 6,491.07 ",FALSE,31," 6,491.07 ",Unpaid,Overdue,31-60
+Summit Manufacturing,11-02-26,13-03-26," 2,303.73 ",TRUE,86, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,25-04-26,25-05-26," 20,037.93 ",FALSE,13," 20,037.93 ",Unpaid,Not Overdue,0-30
+Apex Logistics,08-02-26,10-03-26," 6,297.96 ",TRUE,89, -   ,Paid,Not Overdue,61-90
+Delta Retail,04-02-26,06-03-26," 15,087.96 ",TRUE,93, -   ,Paid,Not Overdue,90+
+Summit Manufacturing,21-04-26,21-05-26," 2,611.75 ",FALSE,17," 2,611.75 ",Unpaid,Not Overdue,0-30
+Summit Manufacturing,11-01-26,10-02-26," 5,707.17 ",FALSE,117," 5,707.17 ",Unpaid,Overdue,90+
+Horizon Media,24-02-26,26-03-26," 15,149.25 ",TRUE,73, -   ,Paid,Not Overdue,61-90
+Summit Manufacturing,23-03-26,22-04-26," 8,083.79 ",TRUE,46, -   ,Paid,Not Overdue,31-60
+Delta Retail,19-03-26,18-04-26," 12,391.64 ",FALSE,50," 12,391.64 ",Unpaid,Overdue,31-60
+Horizon Media,07-04-26,07-05-26," 19,748.06 ",TRUE,31, -   ,Paid,Not Overdue,31-60
+Summit Manufacturing,30-04-26,30-05-26," 13,774.25 ",FALSE,8," 13,774.25 ",Unpaid,Not Overdue,0-30
+Apex Logistics,02-01-26,01-02-26," 11,207.61 ",FALSE,126," 11,207.61 ",Unpaid,Overdue,90+
+Apex Logistics,27-02-26,29-03-26," 18,395.59 ",TRUE,70, -   ,Paid,Not Overdue,61-90
+Apex Logistics,11-03-26,10-04-26," 14,408.90 ",TRUE,58, -   ,Paid,Not Overdue,31-60
+Delta Retail,13-02-26,15-03-26," 14,000.79 ",TRUE,84, -   ,Paid,Not Overdue,61-90
+Global Tech Corp,16-03-26,15-04-26," 5,697.43 ",TRUE,53, -   ,Paid,Not Overdue,31-60
+Horizon Media,22-01-26,21-02-26," 14,947.41 ",FALSE,106," 14,947.41 ",Unpaid,Overdue,90+
+Horizon Media,04-03-26,03-04-26," 11,735.22 ",TRUE,65, -   ,Paid,Not Overdue,61-90
+Horizon Media,02-02-26,04-03-26," 23,217.16 ",TRUE,95, -   ,Paid,Not Overdue,90+
+Delta Retail,23-01-26,22-02-26," 20,596.35 ",TRUE,105, -   ,Paid,Not Overdue,90+
