@@ -6,10 +6,15 @@ Managed debtor ageing across multiple customer accounts to identify overdue expo
 ## Technical Approach
 * **Data Processing**: Extracted and reconciled raw data from SAP using Advanced Excel for initial validation.
 * **Visualization**: Developed an interactive dashboard in Power BI to track customer payment behavior and working capital metrics.
-* **Logic**: Implemented DAX measures to categorize overdue debts by aging brackets (e.g., 30, 60, 90+ days).
+* **Logic**: Implemented DAX measures to categorize overdue debts by aging brackets (e.g., 30, 60, 90+ days)[cite: 1].
 
 ## Key Results
-* Enhanced cash flow visibility for management.
-* Supported credit review processes by highlighting high-risk accounts.
-* Automated reporting workflows, significantly reducing manual data handling time.
-  
+* Enhanced cash flow visibility for management[cite: 1].
+* Supported credit review processes by highlighting high-risk accounts[cite: 1].
+* Automated reporting workflows, significantly reducing manual data handling time[cite: 1].
+
+---
+
+### 📊 Project Preview
+You can view a static version of the dashboard here: [Account Receivables Dashboard PDF](AR%20DASHBOARD..pdf) 
+*(Note: You can also download the `AR DASHBOARD.pbix` file in this repository to view the full interactive report in Power BI Desktop.)*
